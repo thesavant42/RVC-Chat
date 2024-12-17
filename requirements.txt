@@ -29,3 +29,6 @@ emoji
 pydub
 pybars3
 sumy
+
+#missing?
+psutil
