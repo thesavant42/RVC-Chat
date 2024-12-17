@@ -4,6 +4,7 @@ WORKDIR /app
 
 RUN --mount=type=cache,target=/root/.cache apt-get update && \
     apt-get install -y -qq \
+    git \
     ffmpeg \
     espeak \
     libportaudio2 \
