@@ -1,4 +1,4 @@
-@echo off
+REM @echo off
 set LOGFILE=%~n0.log
 call :LOG > %LOGFILE%
 exit /B
